@@ -8,13 +8,17 @@ It makes us understand that when we create a Model it creates a table in DB with
 
 Create Virtual Environment and activate it.
 
+```
 python -m venv venv
 
 venv/Scripts/active
+```
 
 Create Skeleton of Django Project (mysite).
 
+```
 django-admin startproject mysite .
+```
 
 To configure the project, we have made changes to below properties in mysite/settings.py file.
 
