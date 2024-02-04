@@ -4,6 +4,7 @@ This project is for understanding how Django project and app is created.
 
 It makes us understand that when we create a Model it creates a table in DB with this name "project_model"
 
+
 ## Lets get Started.
 
 Create Virtual Environment and activate it.
@@ -13,6 +14,7 @@ python -m venv venv
 
 venv/Scripts/active
 ```
+
 
 ### Create Skeleton of Django Project (mysite).
 
@@ -44,6 +46,7 @@ Start the web server.
 python manage.py runserver
 ```
 
+
 ### Create an App (blog) inside the project for creating Models.
 
 ```
@@ -58,6 +61,7 @@ INSTALLED_APPS = [
     'blog',
 ]
 ```
+
 
 #### Create a Model for blog post at blog/models.py
 
@@ -79,6 +83,7 @@ python manage.py migrate blog
 
 In DB you can see a table named 'blog_post' with the fields added.
 
+
 #### Django Admin
 
 We will use this to add and delete posts.
@@ -95,6 +100,7 @@ python manage.py createsuperuser
 ```
 
 This will add user created in DB table named 'auth_user'
+
 
 ### Interacting with the Website.
 
