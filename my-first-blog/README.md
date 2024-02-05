@@ -29,7 +29,7 @@ TIME_ZONE = 'Asia/Kolkata'
 
 STATIC_ROOT = BASE_DIR / 'static'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','.pythonanywhere.com']
 ```
 
 Create secret and Copy it to an .env file with name as SECRET='<Secret_Value>'
@@ -104,6 +104,6 @@ This will add user created in DB table named 'auth_user'
 
 ### Interacting with the Website.
 
-Navigate to localhost:8000/admin/
+Navigate to 127.0.0.1:8000/admin/
 
 Post -> Create Post , Delete post ... etc.
