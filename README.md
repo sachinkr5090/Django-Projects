@@ -107,3 +107,18 @@ This will add user created in DB table named 'auth_user'
 Navigate to 127.0.0.1:8000/admin/
 
 Post -> Create Post , Delete post ... etc.
+
+
+## Deploying this project on PythonAnywhere
+
+Login and create the API Token from Accout tab.
+
+From PythonAnywhere Dashboard go to console and select bash. Run below commands.
+
+> [!CAUTION]
+> Please move the selected project to home directory. Else below script will fail.
+
+```
+pip3.8 install --user pythonanywhere
+pa_autoconfigure_django.py --python=3.8 https://github.com/sachinkr5090/Django-Projects.git
+```
