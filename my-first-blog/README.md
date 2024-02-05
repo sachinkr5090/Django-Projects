@@ -108,6 +108,8 @@ Navigate to 127.0.0.1:8000/admin/
 
 Post -> Create Post , Delete post ... etc.
 
+once you have added the Post content. You can view it in the DB as well.
+
 <img src="readme_images/blog_post_table.png">
 
 
