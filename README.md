@@ -134,4 +134,4 @@ Our site is live [Create Blog Posts](https://sachinkr5090.pythonanywhere.com/adm
 
 
 
-<img src="readme_images/pythonanywhereserver.png" height="60" width="60" >
+<img src="readme_images/pythonanywhereserver.png">
