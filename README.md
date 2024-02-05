@@ -122,3 +122,12 @@ From PythonAnywhere Dashboard go to console and select bash. Run below commands.
 pip3.8 install --user pythonanywhere
 pa_autoconfigure_django.py --python=3.8 https://github.com/sachinkr5090/Django-Projects.git
 ```
+
+Create Super User for Django Admin from the bash terminal.
+
+```
+python manage.py createsuperuser
+```
+
+
+Our site is live. Visit at [sachinkr5090.pythonanywhere.com](https://sachinkr5090.pythonanywhere.com/)
